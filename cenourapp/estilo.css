@@ -25,8 +25,7 @@ label {
     display: block;
     font-size: 75%;
     padding: 4em 0 1em;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
 label[for=opcao-bolos] {
@@ -60,11 +59,11 @@ label[for=opcao-bebidas]{
     margin-bottom: 100px;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
     width: 100%;
 }
-
 .container-menus {
     transform: translateX(0);
     transition: transform 300ms ease;
@@ -79,20 +78,3 @@ html, body {
 #opcao-bebidas:checked ~ .container-menus {
     transform: translateX(-50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
